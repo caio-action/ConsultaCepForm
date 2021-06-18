@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="newestilo.css">
+    <title>CEP Consulta</title>
+
+    <body>
+    <section>
+        <div>
+            <form>
+                <p><label for="City">Cidade</label>
+                <input type="text" id="City" name="City"><br></p>
+                <label for="UF">Estado</label>
+                <input type="text" id="UF" name="UF"><br>
+                <label for="Logr">Logradouro</label>
+                <input type="text" id="Logr" name="Logr">
+                <input type="button" value="Buscar" id="busca" onclick="valuesearching()" ><br>
+                <label for="cepres">Cep :<span id="cepres"></span></label>
+             </form>
+        </div>
+    </section>
+    <script src="newscript.js"></script>
+</body>
+
+</html>
